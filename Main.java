@@ -4,9 +4,9 @@ class Main {
     Scanner scan = new Scanner(System.in);
     int liczba=scan.nextInt();
     int suma=0;
-    while(liczba!=5)
+    while(liczba!=-5)
       {
-        if(liczba%2!=0)
+        if(liczba%2==0)
         {
           suma=suma+liczba;
         }
